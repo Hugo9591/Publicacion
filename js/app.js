@@ -59,6 +59,7 @@ function crearHTML(){
             }
 
             const li = document.createElement('li');
+            li.classList.add('tarjeta');
 
             const tweetText = document.createElement('span');
             tweetText.textContent = tweet.tweet;
@@ -74,21 +75,6 @@ function crearHTML(){
             li.appendChild(tweetTime);
             li.appendChild(btnEliminar)
             listaTweet.appendChild(li);
-
-
-
-            // listaTweet.appendChild(btnEliminar);
-
-
-            // const li = document.createElement('li');
-            // li.innerText = tweet.tweet;
-            
-
-            // const lih = document.createElement('li');
-            // li.innerHTML = Date();
-
-            // listaTweet.appendChild(li);
-            // listaTweet.appendChild(lih);
         })
     }
     sincronizacionStorage();
