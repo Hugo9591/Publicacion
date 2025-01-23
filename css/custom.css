@@ -1,0 +1,36 @@
+h1, h2 {
+    text-align: center;
+}
+
+#contenido {
+    margin-top: 40px;
+}
+.borrar-tweet,
+.borrar-tweet:hover {
+    float: right;
+    cursor: pointer;
+    color: red;
+    font-weight: bold;
+}
+
+.error {
+    background-color: rgba(255, 0, 0, 0.733);
+    text-align: center;
+    padding: 10px;
+    text-transform: uppercase;
+    font-weight: bold;
+    max-width: 400px;
+    margin: 0 auto;
+    color: white;
+    border-radius: 20px;
+}
+
+.animacion{
+    animation: opa 4s ease;
+  }  
+
+@keyframes opa {
+    0%{opacity: 1;}
+    50%{opacity: .9;}
+    100%{opacity: 0;}
+  }
